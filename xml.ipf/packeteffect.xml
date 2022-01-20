@@ -598,7 +598,7 @@
 		<Effect Name="I_DelmoreCastleGate_force001"/>
 		<Effect Name="I_DelmoreCastleGate_force001
 "/>
-		<Effect Name="I_DelmoreCastleGate_force001
+        <Effect Name="I_DelmoreCastleGate_force001
 "/>
 		<Effect Name="skl10_loop"/>
 		<Effect Name="skl12_loop"/>
@@ -1546,7 +1546,9 @@
 		<Effect Name="battlefield5vs5"/>
 		<Effect Name="master_Hwarang"/>
 		<Effect Name="F_pattern009_orange_loop90"/>
-	</Category>
+	<Effect Name="master_Hackapell"/>
+        <Effect Name="F_cleric_smite_cast_black"/>
+    </Category>
 	<Category ID="144">
 		<Effect Name="F_pc_CardBook_ground_dark"/>
 		<Effect Name="I_smoke013_dark3_yellow"/>
@@ -4087,11 +4089,57 @@
 		<Effect Name="voice_luchador_m_martinete_shot"/>
 		<Effect Name="SKL_BUTTERFLY"/>
 		<Effect Name="SKL_TROOPERCHARGE"/>
-		<Effect Name="ENABLE_DASH"/>
+		<Effect Name="Hakkapeliter_Blossa"/>
+        <Effect Name="Hakkapeliter_TrooperCharge_Abil"/>
+        <Effect Name="ENABLE_DASH"/>
 		<Effect Name="SKL_PISTOLSTANCE_BLOCK"/>
 		<Effect Name="I_sphere001_mash_loop"/>
-		<Effect Name="I_wizard_energybolt_force_rize#Dummy_Force"/>
-	</Category>
+		<Effect Name="F_hakkapel_blossa_ground"/>
+        <Effect Name="I_wizard_energybolt_force_rize#Dummy_Force"/>
+        <Effect Name="Enchanter_EnchantAura"/>
+        <Effect Name="Enchanter_EnchantAura_Attack"/>
+        <Effect Name="F_explosion001_ivory"/>
+        <Effect Name="F_explosion006_violet"/>
+        <Effect Name="F_explosion007_violet"/>
+        <Effect Name="F_explosion008_violet"/>
+        <Effect Name="F_explosion009_violet"/>
+        <Effect Name="F_explosion010_violet"/>
+        <Effect Name="F_explosion011_violet"/>
+        <Effect Name="F_explosion012_violet"/>
+        <Effect Name="F_explosion013_violet"/>
+        <Effect Name="F_explosion014_violet"/>
+        <Effect Name="F_explosion015_violet"/>
+        <Effect Name="F_explosion016_violet"/>
+        <Effect Name="F_explosion017_violet"/>
+        <Effect Name="F_explosion018_violet"/>
+        <Effect Name="I_force111_trail_loop_dark_blue"/>
+        <Effect Name="I_force104_trail_violet"/>
+        <Effect Name="I_force097_trail_rainbow"/>
+        <Effect Name="I_force076_violet"/>
+        <Effect Name="force_white"/>
+        <Effect Name="I_wizard_icebolt_force_ice2"/>
+        <Effect Name="I_archer_Lachrymator_force_mash"/>
+        <Effect Name="I_pagdoper_force_mash"/>
+        <Effect Name="I_wizard_energybolt_force_rize_origin"/>
+        <Effect Name="I_wizard_energybolt_force_rize2"/>
+        <Effect Name="SKL_TROOPERCHARGE_RIDE"/>
+        <Effect Name="Linker_cable_basic"/>
+        <Effect Name="Linker_cable_blue"/>
+        <Effect Name="Linker_cable_buff1"/>
+        <Effect Name="voice_elementalist_f_elementalessence_cast"/>
+        <Effect Name="voice_runecaster_f_isa_cast"/>
+        <Effect Name="voice_runecaster_m_isa_cast"/>
+        <Effect Name="voice_runecaster_m_ehwaz_cast"/>
+        <Effect Name="voice_runecaster_m_berkana_shot"/>
+        <Effect Name="voice_onmyoji_f_watershikigami_cast"/>
+        <Effect Name="F_hit009_rize_red3_4"/>
+        <Effect Name="F_hit028_red"/>
+        <Effect Name="F_hit028_red#Dummy_Force"/>
+        <Effect Name="skl_eff_troopercharge_art_shot"/>
+        <Effect Name="Linker_cable_buff2"/>
+        <Effect Name="F_hakkapel_blossa_ground"/>
+        <Effect Name="I_wizard_energybolt_force_rize#Dummy_Force"/>
+    </Category>
 	<Category ID="84">
 		<Effect Name="M_PAST_FLIBRARY_1"/>
 	</Category>
@@ -7140,7 +7188,10 @@
 		<Effect Name="skl_eff_archeology_very_close"/>
 		<Effect Name="skl_eff_archeology_dicover_effect"/>
 		<Effect Name="skl_eff_archeology_dicover"/>
-	</Category>
+	<Effect Name="skl_eff_pet_tiger_born"/>
+        <Effect Name="skl_eff_photowall_golddog_close_boom"/>
+        <Effect Name="skl_eff_pet_tiger_born_boom"/>
+    </Category>
 	<Category ID="28">
 		<Effect Name="F_explosion006_green#Dummy_skl2_shot"/>
 		<Effect Name="F_explosion006_green"/>
@@ -25877,4 +25928,8 @@
 		<Effect Name="F_ground223_dark_loop"/>
 		<Effect Name="raid_earring"/>
 	</Category>
+    <Category ID="170">
+        <Effect Name="Linker_blue3"/>
+        <Effect Name="Linker_cable_blue"/>
+    </Category>
 </packeteffects>

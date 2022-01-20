@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by imc (imc) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by imc (imc) -->
 <!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by MintPC (Mi) -->
 <skinset name="Base">
 	<skinlist category="frames">
@@ -10618,6 +10618,9 @@
 		<image name="ps_searchUIBtn" file="\skin\party_search.tga" imgrect="194 322 52 53" CMM_Caption="파티창_파티찾기 버튼 "/>
 		<image name="ps_searchUIBtn_cursoron" file="\skin\party_search.tga" imgrect="247 322 52 53"/>
 		<image name="ps_searchUIBtn_clicked" file="\skin\party_search.tga" imgrect="300 322 52 53"/>
+		<image name="growup_btn_small" file="\skin\button_small.tga" imgrect="0 340 58 60" CMM_Caption="성장지원 숏컷 버튼"/>
+		<image name="growup_btn_small_cursoron" file="\skin\button_small.tga" imgrect="59 340 58 60"/>
+		<image name="growup_btn_small_clicked" file="\skin\button_small.tga" imgrect="118 340 58 60"/>
 	</imagelist>
 	<imagelist category="worldmap_image">
 		<image name="worldmap2_mainmap" file="\skin\worldmap\worldmap2_mainmap.jpg" imgrect="0 0 1920 1080" CMM_Caption="월드맵배경"/>
@@ -13729,6 +13732,7 @@
 		<image name="icon_interaction_protection" file="\icon\buff_icon5.tga" imgrect="512 1792 128 128" CMM_Caption="탑승자 보호"/>
 		<image name="icon_ObjectInteractionRideBuff" file="\icon\buff_icon5.tga" imgrect="640 1792 128 128" CMM_Caption="탑승"/>
 		<image name="icon_2022_newyear_buff" file="\icon\buff_icon5.tga" imgrect="0 1920 128 128" CMM_Caption="2022 신년 버프"/>
+		<image name="icon_buff_ridepet_YellowTiger" file="\icon\buff_icon5.tga" imgrect="128 1920 128 128" CMM_Caption="황호 버프"/>
 	</imagelist>
 	<imagelist category="housing_bufficon">
 		<image name="icon_Weapon_Klaida" file="\icon\icon_hosing_buff.tga" imgrect="0 0 128 128"/>
@@ -14459,6 +14463,8 @@
 		<image name="plate_achieve_epicraid_firstclear" file="\skin\user_title_skin.tga" imgrect="1075 889 214 36" CMM_Caption="에픽레이드_퍼클"/>
 		<image name="plate_achieve_contest_Event_4th" file="\skin\user_title_skin.tga" imgrect="1075 926 214 34" CMM_Caption="일본 일러스트 공모전 칭호_4th"/>
 		<image name="plate_achieve_2022_newyear" file="\skin\user_title_skin.tga" imgrect="215 959 214 34" CMM_Caption="2022 설날 칭호"/>
+		<image name="plate_achieve_Hakkapeliter" file="\skin\user_title_skin.tga" imgrect="430 959 214 34" CMM_Caption="하카펠리테르 칭호"/>
+		<image name="plate_achieve_hakkapeliter_weekraid" file="\skin\user_title_skin.tga" imgrect="645 959 214 34" CMM_Caption="하카펠리테르 주보레 칭호"/>
 	</imagelist>
 	<imagelist category="skin_hair">
 		<image name="icon_skintone_01_m01" file="\skin\skinhair\icon_skintone_01_m01.png" imgrect="0 0 80 80" CMM_Caption="남성 01"/>
@@ -14602,6 +14608,7 @@
 		<image name="ridepet_PolarReindeer" file="\icon\ridepet.tga" imgrect="320 0 80 80" CMM_Caption="북극순록"/>
 		<image name="ridepet_ep13raincoat" file="\icon\ridepet.tga" imgrect="400 0 80 80" CMM_Caption="금붕어"/>
 		<image name="ridepet_noblepopo" file="\icon\ridepet.tga" imgrect="480 0 80 80" CMM_Caption="노블포포"/>
+		<image name="ridepet_YellowTiger" file="\icon\ridepet.tga" imgrect="560 0 80 80" CMM_Caption="황호"/>
 	</imagelist>
 	<effectimagelist category="effectlist">
 		<image name="blue_orb" file="\icon\blue_orb.tga" imgrect="0 0 256 256"/>

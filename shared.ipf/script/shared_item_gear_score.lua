@@ -466,21 +466,6 @@ function GET_PLAYER_GEAR_SCORE(pc)
         end
         score = score + add
 
-        if score > 8200 and IsServerSection() == 1 then
-            local log_list = {}
-            table.insert(log_list, 'Type')
-            table.insert(log_list, 'Error')
-            table.insert(log_list, 'missing_count')
-            table.insert(log_list, tostring(missing_count))
-            table.insert(log_list, 'add_value')
-            table.insert(log_list, tostring(add))
-            table.insert(log_list, 'before_score')
-            table.insert(log_list, tostring(before_score))
-            table.insert(log_list, 'result_score')
-            table.insert(log_list, tostring(score))
-
-            CustomMongoLog_WithList(pc, 'GearScore', log_list)
-        end
         return math.floor(score + 0.5)
     end
 end
