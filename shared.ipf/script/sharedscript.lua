@@ -3933,7 +3933,8 @@ function IS_DEFAULT_COSTUME_LOCK(JobID)
         for i = 0, guidList:Count() - 1 do
             local guid = guidList:Get(i);
             local invItem = itemList:GetItemByGuid(guid);
-            if invItem.isLockState == true then 
+            local itemObj = GetIES(invItem:GetObject());
+            if itemObj.ClassName == defaultCostume and invItem.isLockState == true then 
                 return 1;
             end
         end
