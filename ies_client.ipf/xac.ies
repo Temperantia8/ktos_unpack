@@ -26475,6 +26475,7 @@ ClassID,ClassName,Mesh,Path,ArmbandInfo,UseAlpha,IsJiggleBoneHair
 729429,"warrior_m_head4_eye01_blue2","","char_texture\pc\face\face_m_eye01_blue2\","","NO",""
 729430,"warrior_m_head5_eye01_blue2","","char_texture\pc\face\face_m_eye01_blue2\","","NO",""
 729500,"RidePet_Tiger_twn","char_hi\monster\pet_tiger_set.xac","char_texture\monster\pet_tiger\","","NO",""
+729501,"RidePet_Tiger_kor","char_hi\monster\pet_tiger_set.xac","char_texture\monster\pet_tiger\black\","","NO",""
 729601,"warrior_m_hakkapeliter_achieve","char_hi\pc\warrior_m\warrior_m_hakkapeliter_achieve.xac","char_texture\pc\body\warrior_m_hakkapeliter_achieve\","S;Dummy_LU_armband","NO",""
 729602,"archer_m_hakkapeliter_achieve","char_hi\pc\archer_m\archer_m_hakkapeliter_achieve.xac","char_texture\pc\body\warrior_m_hakkapeliter_achieve\","S;Dummy_LU_armband","NO",""
 729603,"cleric_m_hakkapeliter_achieve","char_hi\pc\Cleric_m\cleric_m_hakkapeliter_achieve.xac","char_texture\pc\body\warrior_m_hakkapeliter_achieve\","S;Dummy_LU_armband","NO",""

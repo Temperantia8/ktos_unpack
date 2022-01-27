@@ -1,3 +1,5 @@
+local PC_MAX_MSPD = 60
+
 function SCR_GET_JOB_STAT_RATIO(pc, statName)
 	local stat = 0;
 	if statName == nil then

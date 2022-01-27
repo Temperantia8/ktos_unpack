@@ -9470,6 +9470,11 @@ return obj.Level"/>
                 <Str Str="SCR_ENCHANTER_VIBORA_Lv4"/>
             </ToolScp>
         </createEvent>
+        <destroyEvent>
+            <ToolScp Scp="PAD_FUNC_UPDATE_RUNSCRIPT" Client="NO" UseSleep="NO">
+                <Str Str="SCR_ENCHANTAURA_CHACK_BUFF_REMOVE"/>
+            </ToolScp>
+        </destroyEvent>
         <updateEvent>
             <ToolScp Scp="PAD_ADD_LIFE" Client="NO" UseSleep="NO">
                 <Num Num="-2000"/>
@@ -11562,7 +11567,7 @@ return obj.Level"/>
 				<Num Num="1"/>
 			</ToolScp>
 			<ToolScp Scp="C_PAD_EFFECT_POS" Client="YES" UseSleep="NO">
-				<Str_Arg Str="F_spin007_4_loop" Arg="2"/>
+                <Str_Arg Str="F_spin047_smoke_loop" Arg="1.7"/>
 				<Pos Angle="0" Dist="0"/>
 				<Num Num="0"/>
 				<Str_Arg Str="None" Arg="0.5"/>
@@ -11600,7 +11605,7 @@ return obj.Level"/>
 				<Num Num="1"/>
 			</ToolScp>
 			<ToolScp Scp="C_PAD_EFFECT_POS" Client="YES" UseSleep="NO">
-				<Str_Arg Str="F_spin007_4_loop" Arg="2"/>
+                <Str_Arg Str="F_spin047_smoke_loop" Arg="1.7"/>
 				<Pos Angle="0" Dist="0"/>
 				<Num Num="0"/>
 				<Str_Arg Str="None" Arg="0.5"/>
@@ -28446,7 +28451,7 @@ end"/>
 				<Num Num="1"/>
 			</ToolScp>
 			<ToolScp Scp="C_PAD_EFFECT_POS" Client="YES" UseSleep="NO">
-				<Str_Arg Str="F_spin007_4_loop" Arg="2"/>
+                <Str_Arg Str="F_spin047_smoke_loop" Arg="1.7"/>
 				<Pos Angle="0" Dist="0"/>
 				<Num Num="0"/>
 				<Str_Arg Str="None" Arg="0.5"/>
@@ -28479,7 +28484,7 @@ end"/>
 				<Num Num="1"/>
 			</ToolScp>
 			<ToolScp Scp="C_PAD_EFFECT_POS" Client="YES" UseSleep="NO">
-				<Str_Arg Str="F_spin007_4_loop" Arg="2"/>
+                <Str_Arg Str="F_spin047_smoke_loop" Arg="1.7"/>
 				<Pos Angle="0" Dist="0"/>
 				<Num Num="0"/>
 				<Str_Arg Str="None" Arg="0.5"/>

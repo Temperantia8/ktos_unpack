@@ -7191,6 +7191,7 @@
 	<Effect Name="skl_eff_pet_tiger_born"/>
         <Effect Name="skl_eff_photowall_golddog_close_boom"/>
         <Effect Name="skl_eff_pet_tiger_born_boom"/>
+        <Effect Name="F_smoke205_Dark"/>
     </Category>
 	<Category ID="28">
 		<Effect Name="F_explosion006_green#Dummy_skl2_shot"/>
@@ -25927,7 +25928,8 @@
 		<Effect Name="F_ground222_loop"/>
 		<Effect Name="F_ground223_dark_loop"/>
 		<Effect Name="raid_earring"/>
-	</Category>
+	<Effect Name="F_spin047_smoke_loop"/>
+    </Category>
     <Category ID="170">
         <Effect Name="Linker_blue3"/>
         <Effect Name="Linker_cable_blue"/>

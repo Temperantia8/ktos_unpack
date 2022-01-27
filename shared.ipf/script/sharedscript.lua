@@ -3921,3 +3921,23 @@ function IS_BOUNTY_BATTLE_BUFF_APPLIED(pc)
 
     return 0;
 end
+
+function IS_DEFAULT_COSTUME_LOCK(JobID)
+    local jobCls = GetClassByType("Job", JobID);
+    local defaultCostume = TryGetProp(jobCls, "DefaultCostume", "None")
+
+    local itemList = session.GetInvItemList();
+    local guidList = itemList:GetGuidList();
+
+    if defaultCostume ~= "None" then
+        for i = 0, guidList:Count() - 1 do
+            local guid = guidList:Get(i);
+            local invItem = itemList:GetItemByGuid(guid);
+            if invItem.isLockState == true then 
+                return 1;
+            end
+        end
+    end
+
+    return 0;
+end
