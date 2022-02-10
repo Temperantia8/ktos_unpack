@@ -7188,11 +7188,14 @@
 		<Effect Name="skl_eff_archeology_very_close"/>
 		<Effect Name="skl_eff_archeology_dicover_effect"/>
 		<Effect Name="skl_eff_archeology_dicover"/>
-	<Effect Name="skl_eff_pet_tiger_born"/>
-        <Effect Name="skl_eff_photowall_golddog_close_boom"/>
-        <Effect Name="skl_eff_pet_tiger_born_boom"/>
-        <Effect Name="F_smoke205_Dark"/>
-    </Category>
+		<Effect Name="skl_eff_pet_tiger_born"/>
+		<Effect Name="skl_eff_photowall_golddog_close_boom"/>
+		<Effect Name="skl_eff_pet_tiger_born_boom"/>
+		<Effect Name="F_smoke205_Dark"/>
+		<Effect Name="I_warp_arrow_mash_red"/>
+		<Effect Name="E_warp_arrow_red"/>
+		<Effect Name="I_warp_arrow_mash_red2_2"/>
+	</Category>
 	<Category ID="28">
 		<Effect Name="F_explosion006_green#Dummy_skl2_shot"/>
 		<Effect Name="F_explosion006_green"/>

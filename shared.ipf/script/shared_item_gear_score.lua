@@ -202,8 +202,11 @@ function GET_GEAR_SCORE(item, pc)
 
 
     if type == 'SEAL' then
-        reinforce = GET_CURRENT_SEAL_LEVEL(item)        
-        local ret = ((0.7 *(100*reinforce))+((1100*grade)+(1*use_lv)) * 0.3)*0.26        
+        reinforce = GET_CURRENT_SEAL_LEVEL(item)
+        if use_lv == 380 then
+            grade = math.min(grade, 5)
+        end
+        local ret = ((0.7 *(100*reinforce))+((1100*grade)+(1*use_lv)) * 0.3)*0.26
         return math.floor(ret + 0.5)
     elseif type == 'RELIC' then        
         return 0

@@ -1,5 +1,7 @@
 -- sharedscript.lua
 
+local json = require('json')
+
 function shuffle(tbl)
     local ret = {}
     for k, v in pairs(tbl) do
@@ -3941,4 +3943,50 @@ function IS_DEFAULT_COSTUME_LOCK(JobID)
     end
 
     return 0;
+end
+
+
+function save_json(path, tbl)
+	file,err = io.open(path, "w")
+	if err then return _,err end
+
+	local s = json.encode(tbl);
+	file:write(s);
+	file:close();
+end
+
+function load_json(path, tblMerge, ignoreError)
+	local file, err=io.open(path,"r");
+	local t = nil;
+
+	if (err) then
+		if (ignoreError) then
+			t = {};
+		else 
+			return _,err
+		end
+	else
+		local content = file:read("*all");
+		file:close();
+		t = json.decode(content);
+	end
+
+	if tblMerge then
+		t = merge_left(tblMerge, t)
+		save_json(path, t);
+	end
+
+	return t;
+end
+
+function merge_left(t1, t2)
+	for k, v in pairs(t2) do
+		if (type(v) == "table") and (type(t1[k] or false) == "table") then
+			merge_left(t1[k], t2[k])
+		else
+			t1[k] = v
+		end
+	end
+
+	return t1
 end

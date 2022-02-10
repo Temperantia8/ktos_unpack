@@ -5,6 +5,7 @@ ClassID,OverHeatResetTime,ClassName,IsOverHeat,ReducePlayOnly,ForceReset
 1003,6000,"SPUP","NO","FALSE","YES"
 1004,6000,"RETURN","NO","FALSE","YES"
 1005,6000,"Bash","NO","FALSE","YES"
+1007,5000,"Compass","NO","FALSE","YES"
 1006,6000,"Conviction","NO","FALSE","YES"
 1008,6000,"Earthtremor","NO","FALSE","YES"
 1009,6000,"Guard","NO","FALSE","YES"
@@ -1468,3 +1469,4 @@ ClassID,OverHeatResetTime,ClassName,IsOverHeat,ReducePlayOnly,ForceReset
 4199,6000,"Moksha","NO","FALSE","NO"
 4200,6000,"SoulMaster","NO","FALSE","NO"
 4208,5000,"secret_medicine","NO","FALSE","NO"
+4215,600000,"Enrichment_HP","NO","FALSE","YES"

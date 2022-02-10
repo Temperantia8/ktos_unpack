@@ -58,6 +58,8 @@ ClassID,Price,JobGrade,Itemdate,AccountLimitCount,BonusItemCnt,AccountLimitWeekl
 320,70,0,210706,0,0,0,"ClassName320","TP_Premium","TP_Consume","Premium_Sandra_Glass_1line_460_Box","","","","NO","","NO","",""
 321,6,0,210101,0,0,0,"ClassName321","TP_Premium","TP_Consume","Adventure_Reward_Seed","","","","NO","","NO","",""
 322,6,0,210101,0,0,0,"ClassName322","TP_Premium","TP_Consume","Adventure_Goddess_Statue","","","","NO","","NO","",""
+323,9,0,220101,0,0,0,"ClassName323","TP_Premium","TP_Consume","box_archeology_compass_10ea","","","","NO","","NO","",""
+324,25,0,220101,0,0,0,"ClassName324","TP_Premium","TP_Consume","box_archeology_compass_40ea","","","","NO","","NO","",""
 401,298,0,210124,0,0,0,"ClassName401","TP_Premium","TP_Petitem","egg_009","","","","","","","",""
 402,298,0,210123,0,0,0,"ClassName402","TP_Premium","TP_Petitem","egg_006","","","","","","","",""
 403,3,0,210122,0,0,0,"ClassName403","TP_Premium","TP_Petitem","food_cereal","","","","","","","",""

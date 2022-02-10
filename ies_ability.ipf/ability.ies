@@ -509,7 +509,7 @@ ClassID,ActiveState,Level,Hidden,ClassName,Name,Icon,Job,SkillCategory,AddSpend,
 118017,1,1,0,"Matador17","파에나: 급소 찌르기","ability_Warrior_Matador17","Char1_19","Matador_Faena","SP/20","* [파에나]의 치명타 확률이 30% 증가{nl}* SP 소모 20%증가","","","NO","","SCR_ABIL_NONE","NO","",""
 118018,1,1,0,"Matador18","백 슬라이드: 완벽한 타이밍","ability_Warrior_Matador18","Char1_19","Matador_BackSlide","SP/20","* [백 슬라이드]로 적의 공격을 회피 시, 파소 도블레 쿨타임 초기화{nl}* SP 소모 20%증가","","","NO","","SCR_ABIL_NONE","NO","",""
 118019,1,1,0,"Matador19","카포티: 강화","ability_Warrior_Matador19","Char1_19","Matador_Capote","","* [카포티]의 치명타 저항 감소 효과가 특성 레벨당 0.5% 증가{nl} * 최고 레벨 마스터 시 10% 추가로 증가","","","YES","","SCR_ABIL_NONE","NO","",""
-118020,1,1,0,"Matador20","올레: 강화","ability_Warrior_Matador20","Char1_19","Matador_Ole","","* [올레]의 치명타 발생 증가 효과가 특성 레벨당 0.5% 증가{nl} * 최고 레벨 마스터 시 10% 추가로 증가","","","YES","","SCR_ABIL_NONE","NO","",""
+118020,1,1,0,"Matador20","올레: 강화","ability_Warrior_Matador20","Char1_19","Matador_Ole","","* [올레]의 최소 치명타 발생 증가 효과가 특성 레벨당 0.5% 증가{nl} * 최고 레벨 마스터 시 10% 추가로 증가","","","YES","","SCR_ABIL_NONE","NO","",""
 118021,1,1,1,"Matador21","[아츠] 코리다 피날레: 불소","ability_Warrior_Matador21","Char1_19","Matador_CorridaFinale","","* [코리다 피날레]의 속성이 [불] 속성으로 변경되고, 5초간 해당 지역에 화염 피해를 줍니다.","","","NO","","SCR_ABIL_Matador21","NO","",""
 118022,1,1,1,"Matador22","[아츠] 물레타: 상급 강화","ability_Warrior_Matador22","Char1_19","Matador_Muleta","","* [물레타]의 스킬 계수가 특성 레벨당 1.25% 증가","","","YES","","SCR_ABIL_NONE","NO","",""
 118023,1,1,1,"Matador23","[아츠] 파에나: 상급 강화","ability_Warrior_Matador23","Char1_19","Matador_Faena","","* [파에나]의 스킬 계수가 특성 레벨당 1.25% 증가","","","YES","","SCR_ABIL_NONE","NO","",""

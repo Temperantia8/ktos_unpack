@@ -11735,6 +11735,8 @@
 		<image name="popo_emotion01" file="\icon\emoticon\popo_emotion01.png" imgrect="0 0 128 128"/>
 		<image name="popo_emotion02" file="\icon\emoticon\popo_emotion02.png" imgrect="0 0 128 128"/>
 		<image name="popo_emotion03" file="\icon\emoticon\popo_emotion03.png" imgrect="0 0 128 128"/>
+		<image name="Baubas_Valentine_01" file="\icon\emoticon\Baubas_Valentine_01.png" imgrect="0 0 128 128"/>
+		<image name="Baubas_toothbrushing_01" file="\icon\emoticon\Baubas_toothbrushing_01.png" imgrect="0 0 128 128"/>
 	</imagelist>
 	<imagelist category="itemtooltip_image">
 		<image name="circle_gem" file="\skin\tooltip_skin_3.tga" imgrect="805 228 30 30"/>
