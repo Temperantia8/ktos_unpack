@@ -45,3 +45,7 @@ ClassID,ClassName,Category,Icon,Spot_Name,Desc,MsgType
 3402,"3402","Goddess_Raid_Delmore_Auto","","특성 달성률","AbilityScoreMoreThan{score}","AbilityScore"
 3501,"3501","Goddess_Raid_Delmore_Party","","기어 스코어","GearScoreMoreThan_1{score}","GearScore"
 3502,"3502","Goddess_Raid_Delmore_Party","","특성 달성률","AbilityScoreMoreThan{score}","AbilityScore"
+3601,"3601","EarringRaid_Extreme","","기어 스코어","GearScoreMoreThan{score}","GearScore"
+3602,"3602","EarringRaid_Extreme","","특성 달성률","AbilityScoreMoreThan{score}","AbilityScore"
+3701,"3701","Goddess_Raid_Delmore_Extreme","","기어 스코어","GearScoreMoreThan_1{score}","GearScore"
+3702,"3702","Goddess_Raid_Delmore_Extreme","","특성 달성률","AbilityScoreMoreThan{score}","AbilityScore"

@@ -15185,6 +15185,13 @@ function SCR_COMMON_COOLDOWN_DECREASE(pc, skill, basicCoolDown)
         earring_raid_cooldown = 1 - earring_raid_cooldown / 100
         basicCoolDown = basicCoolDown * earring_raid_cooldown
     end
+
+    -- 시련 : 스킬 쿨다운 증가
+    local tribulation_cooldown = GetExProp(pc, "tribulation_cooldown");
+    if tribulation_cooldown > 0 then
+        tribulation_cooldown = 1 + (tribulation_cooldown / 100);
+        basicCoolDown = BasicCoolDown * tribulation_cooldown;
+    end
     
 	-- 2021 근본 인장
 	if IsBuffApplied(pc, 'premium_seal_2021_buff') == 'YES' and IsBuffApplied(pc, 'Event_Cooldown_SPamount_Decrease') == 'NO' and SCR_IS_LEVEL_DUNGEON(pc) == 'YES' then
@@ -18064,7 +18071,7 @@ function SCR_Get_SpendSP_Featherfoot(skill)
         pcSP = stat.SP
     end
     
-    local value = SCR_Get_MSP(pc) * (0.035 * (5 - (pcSP/pcMSP*4.5)))
+    local value = SCR_Get_MSP(pc) * (0.12 - (pcSP/pcMSP*0.1))
     
 
     if IsBuffApplied(pc, 'Wizard_Wild_buff') == 'YES' then
