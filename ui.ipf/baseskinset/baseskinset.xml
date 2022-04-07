@@ -10773,7 +10773,7 @@
 		<image name="party_pilgrim_btn" file="\skin\button_small.tga" imgrect="165 401 50 50" CMM_Caption="순례자 버튼"/>
 		<image name="party_pilgrim_btn_cursoron" file="\skin\button_small.tga" imgrect="216 401 50 50"/>
 		<image name="party_pilgrim_btn_clicked" file="\skin\button_small.tga" imgrect="267 401 50 50"/>
-		</imagelist>
+	</imagelist>
 	<imagelist category="yiseul_button">
 		<image name="pvpmine_shop_btn" file="\skin\pip_test.tga" imgrect="2049 61 66 59" CMM_Caption="용병단 증표 ui 버튼"/>
 		<image name="pvpmine_shop_btn_cursoron" file="\skin\pip_test.tga" imgrect="2049 121 66 59"/>
@@ -14857,7 +14857,8 @@
 		<image name="plate_achieve_Taiwannewyear" file="\skin\user_title_skin.tga" imgrect="1075 996 214 34" CMM_Caption="2022_대만 춘절 칭호"/>
 		<image name="plate_achieve_HocusPocus" file="\skin\user_title_skin.tga" imgrect="215 1029 214 34" CMM_Caption="스팀 몬스터 의인화 팬아트 보상 칭호"/>
 	<image name="plate_achieve_EVENT_2203_ARBOR_DAY_TITLE" file="\skin\user_title_skin.tga" imgrect="431 1029 214 34" CMM_Caption="2022 식목일 칭호"/>
-	<image name="plate_achieve_paulius" file="\skin\user_title_skin.tga" imgrect="646 1029 214 36" CMM_Caption="파울루스 칭호"/>
+		<image name="plate_achieve_paulius" file="\skin\user_title_skin.tga" imgrect="646 1029 214 36" CMM_Caption="파울루스 칭호"/>
+		<image name="plate_achieve_berksbestie" file="\skin\user_title_skin.tga" imgrect="861 1031 214 34" CMM_Caption="스팀 2022 설날 하우벅 칭호"/>
 	</imagelist>
 	<imagelist category="skin_hair">
 		<image name="icon_skintone_01_m01" file="\skin\skinhair\icon_skintone_01_m01.png" imgrect="0 0 80 80" CMM_Caption="남성 01"/>

@@ -4021,3 +4021,21 @@ function DELETE_ITEM_OPEN_WARNINGBOX_MSG(itemCls)
     
     return 0
 end
+
+function CONTENTS_ALERT_GET_CUTLINE(contentsID)
+    local contents_alert = GetClassByType('contents_alert_table', contentsID)
+    local indunInfoName = TryGetProp(contents_alert, "ShowIndunInfo")
+    local indunName = TryGetProp(contents_alert, "IndunName", "None")
+    local indunCls = GetClass("Indun", indunInfoName)
+    if indunCls == nil then
+        indunCls = GetClass("Indun", indunName)
+    end
+    
+    local gearScore = TryGetProp(indunCls, "GearScore")
+    local level = TryGetProp(indunCls, "Level")
+    if gearScore == 0 then
+        gearScore = TryGetProp(contents_alert, "GearScore")
+    end
+
+    return gearScore, level
+end
