@@ -11287,6 +11287,7 @@ end
 -- done , 해당 함수 내용은 cpp로 이전되었습니다. 변경 사항이 있다면 반드시 프로그램팀에 알려주시기 바랍니다.
 function SCR_Get_JointPenalty_Ratio2(skill)
     local value = skill.Level * 10
+    local pc = GetSkillOwner(skill)
     if IsPVPField(pc) == 1 then
         value = value * 0.4
     end
