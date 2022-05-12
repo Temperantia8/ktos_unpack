@@ -20710,7 +20710,7 @@ return lv;"/>
 	<PadSkill Name="Paulius_Energy_Orb_Pad_Extreme" CheckerType="0" Dist="50" Angle="0" Range="60" ApplyFlyMon="1" AllowOverlap="1" IgnoreDistanceInterval="1" EnableSearch="0">
         <createEvent>
             <ToolScp Scp="PAD_ADD_LIFE" Client="NO" UseSleep="NO">
-                <Num Num="130000"/>
+                <Num Num="100000"/>
                 <Num Num="1"/>
             </ToolScp>
             <ToolScp Scp="PAD_USEABLE_PC" Client="NO" UseSleep="NO"/>

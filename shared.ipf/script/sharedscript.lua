@@ -3267,7 +3267,7 @@ function JOB_LAMA_PRE_CHECK(pc, jobCount)
         end
     end
 
-    return 'YES'
+    return 'NO'
 end
 
 
@@ -4155,27 +4155,4 @@ function CONTENTS_ALERT_GET_CUTLINE(contentsID)
     end
 
     return gearScore, level
-end
-
-function JOB_LAMA_PRE_CHECK(pc, jobCount)
-    if jobCount == nil then
-        jobCount = GetTotalJobCount(pc);
-    end
-    if jobCount >= 2 then
-        local pcEtc
-        if IsServerSection() == 0 then
-            pcEtc = GetMyEtcObject();
-        else
-            pcEtc = GetETCObject(pc);
-        end
-
-        -- if pcEtc ~= nil then
-        --     local value = TryGetProp(pcEtc, 'HiddenJob_Char4_22', 0)
-        --     if value == 300 or IS_KOR_TEST_SERVER() == true then
-        --     end
-        -- end
-        return 'YES'
-    end
-
-    return 'NO';
 end
