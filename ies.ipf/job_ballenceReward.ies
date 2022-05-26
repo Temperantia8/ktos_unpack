@@ -58,7 +58,7 @@ ClassID,JobChangePoint,ClassName,Name,EngName,CtrlType,BaseClass,RewardDay_Start
 3020,0,"Char3_20","[아발리스터]","Arbalester","Archer","","","","","","","","",""
 3021,0,"Char3_21","[아퀴버지어]","Arquebusier","Archer","","","","","","","","",""
 3022,0,"Char3_22","[화랑]","Hwarang","Archer","","","","","","","","",""
-4001,1000,"Char4_1","[클레릭]","Cleric","Cleric","Base","","","Premium_SkillReset_14d","Premium_Abillitypoint_14d","","","",""
+4001,0,"Char4_1","[클레릭]","Cleric","Cleric","Base","","","Premium_SkillReset_14d","Premium_Abillitypoint_14d","","","",""
 4002,1000,"Char4_2","[프리스트]","Priest","Cleric","","","","Premium_SkillReset_14d","Premium_Abillitypoint_14d","","","",""
 4003,0,"Char4_3","[크리비]","Kriwi","Cleric","","","","","","","","",""
 4005,0,"Char4_5","[드루이드]","Druid","Cleric","","","","","","","","",""
