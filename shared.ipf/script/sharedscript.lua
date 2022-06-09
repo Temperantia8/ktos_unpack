@@ -3527,7 +3527,11 @@ function CLMSG_DIALOG_CONVERT(npc,msg)
 	return string.format("%s*@*%s",name,msg)
 end
 
-function GET_ABILITY_POINT_EXTRACTOR_FEE(type)
+function GET_ABILITY_POINT_EXTRACTOR_FEE(type)    
+    if IS_SEASON_SERVER() == 'YES' then
+        return 0
+    end
+
     if type == 2 then
         -- 특성 포인트 추출 수수료 퍼센트
         return 5;
@@ -3675,6 +3679,8 @@ function GET_AUTO_MEMBER_JOIN_GUILD_IDX(groupid, nation)
             return "1137006692273513";
         elseif groupid == 1002 then -- 바이보라
             return "1137058231881971";
+        elseif groupid == 3002 then
+            return '1325061835325512'
         end
     elseif nation == 'GLOBAL_JP' then
         if groupid == 1202 then --사내 JPN

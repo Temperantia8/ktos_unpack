@@ -1,4 +1,8 @@
 function SCR_BURNING_EVENT_LIST_LOAD(inputType, isServer)
+    if IS_SEASON_SERVER() == 'YES' then
+        return 'None'
+    end
+
 
     local sysTime
     

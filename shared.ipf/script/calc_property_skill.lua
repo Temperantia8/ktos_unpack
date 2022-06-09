@@ -714,6 +714,7 @@ function SCR_GET_SKL_COOLDOWN(skill)
     
     basicCoolDown = SCR_COMMON_COOLDOWN_DECREASE(pc, skill, basicCoolDown)
     
+    local abilPriest39 = GetAbility(pc, 'Priest39')
     if IsPVPServer(pc) == 1 then
         if skill.ClassName == "Cleric_Heal" then
             basicCoolDown = basicCoolDown + 2000
@@ -724,13 +725,17 @@ function SCR_GET_SKL_COOLDOWN(skill)
         end
 
         if TryGetProp(skill, "ClassName", "None") == "Priest_Resurrection" then
-            basicCoolDown = 900000
+            if abilPriest39 == nil or TryGetProp(abilPriest39, 'ActiveState', 0) == 0 then
+                basicCoolDown = 900000
+            end
         end
     end
 
     if IsJoinColonyWarMap(pc) == 1 then
         if TryGetProp(skill, "ClassName", "None") == "Priest_Resurrection" then
-            basicCoolDown = 600000
+            if abilPriest39 == nil or TryGetProp(abilPriest39, 'ActiveState', 0) == 0 then
+                basicCoolDown = 600000
+            end
         end
     end
 

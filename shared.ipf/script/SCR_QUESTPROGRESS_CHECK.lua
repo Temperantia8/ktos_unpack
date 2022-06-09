@@ -4979,6 +4979,7 @@ function SCR_EPISODE_CHECK(pc, episodeRewardClassName)
         return "Error"
     end
     
+    local clearCnt = 0
     for _notUse , questID in pairs(list) do
         local questIES = GetClassByType('QuestProgressCheck', questID);
         if questIES == nil then
@@ -4990,9 +4991,10 @@ function SCR_EPISODE_CHECK(pc, episodeRewardClassName)
         end
         local state = SCR_QUEST_CHECK(pc, questName )
         if state ~= "COMPLETE" then
-            return "Progress";
+            return "Progress", clearCnt;
         end
+        clearCnt = clearCnt + 1
     end
     
-    return "Reward";
+    return "Reward", clearCnt;
 end

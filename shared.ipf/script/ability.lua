@@ -3774,3 +3774,11 @@ function SCR_ABIL_Kabbalist38_INACTIVE(self, ability)
         SendSkillProperty(self, skill)
     end
 end
+
+function SCR_ABIL_Linker19_ACTIVE(self, ability)
+    LINK_DESTRUCT(self, 'Link_Enemy')
+end
+
+function SCR_ABIL_Linker19_INACTIVE(self, ability)
+    LINK_DESTRUCT(self, 'Link_Enemy')
+end
