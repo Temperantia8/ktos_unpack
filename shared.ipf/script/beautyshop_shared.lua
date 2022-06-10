@@ -241,6 +241,10 @@ function GET_BEAUTYSHOP_HAIR_PRICE(pc, info, hairCouponItem, dyeCouponItem)
 				return -1
 			end
 
+			if IS_SEASON_SERVER() == "YES" then
+				price = 1;
+			end
+
 			colorDyePrice = price
 			local isFreeDefault = false
 			if defaultDye ~= nil then
