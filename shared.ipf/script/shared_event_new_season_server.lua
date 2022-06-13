@@ -1,7 +1,6 @@
 -- shared_event_new_season_server.lua
 
 season_server_no_sell_item_list = {}
-season_server_no_sell_item_list['Drug_AddMaxWeight3_10ea_Recycle'] = 1  -- 판매불가 아이템
 
 -- 20.08 여름 시즌서버
 function IS_SEASON_SERVER(pc)
