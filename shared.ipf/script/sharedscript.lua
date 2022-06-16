@@ -4162,3 +4162,15 @@ function CONTENTS_ALERT_GET_CUTLINE(contentsID)
 
     return gearScore, level
 end
+
+function IS_DESTROYABLE_COSTUME_ITEM(item)
+    local name = TryGetProp(item, 'ClassName', 'None')
+    local cls = GetClass('recycle_shop', name)
+    if cls ~= nil then
+        if TryGetProp(item, 'TeamBelonging', 0) ~= 0 or TryGetProp(item, 'CharacterBelonging', 0) ~= 0 then
+            return true
+        end
+    end
+
+    return false
+end
