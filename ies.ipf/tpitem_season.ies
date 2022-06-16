@@ -12,7 +12,7 @@ ClassID,Price,JobGrade,Itemdate,AccountLimitCount,BonusItemCnt,AccountLimitWeekl
 1207,49,0,210430,0,0,1,"ClassName1207","TP_Premium","TP_Package","Dungeon_Key01_NoTrade_500ea","","2022-06-16 09:00:00","2022-07-21 06:00:00","NO","","NO","AccountLimitWeeklyCountProperty_16"
 1208,43,0,210429,0,0,2,"ClassName1208","TP_Premium","TP_Package","GoddessCard_Reinforce_package","","2022-06-16 09:00:00","2022-07-21 06:00:00","NO","","NO","AccountLimitWeeklyCountProperty_17"
 1209,38,0,210428,0,0,2,"ClassName1209","TP_Premium","TP_Package","coin_package","","2022-06-16 09:00:00","2022-07-21 06:00:00","NO","","NO","AccountLimitWeeklyCountProperty_18"
-1210,15,0,210428,0,0,3,"ClassName1210","TP_Premium","TP_Package","seletbox_tricket_bountyhunt_ep13_hard","","2022-06-16 09:00:00","2022-07-21 06:00:00","NO","","NO","AccountLimitWeeklyCountProperty_19"
+1210,15,0,210428,0,0,3,"ClassName1210","TP_Premium","TP_Package","seletbox_tricket_bountyhunt_ep13_hard","","2022-06-16 09:00:00","2022-06-16 10:00:00","NO","","NO","AccountLimitWeeklyCountProperty_19"
 1211,56,0,210428,0,0,1,"ClassName1211","TP_Premium","TP_Package","box_mythic_Auto_Hard_20ea","","2022-06-16 09:00:00","2022-07-21 06:00:00","NO","","NO","AccountLimitWeeklyCountProperty_20"
 1304,2,0,210122,0,0,0,"ClassName1304","TP_Premium","TP_Consume","RestartCristal","","","","NO","","NO",""
 1305,18,0,210121,0,0,0,"ClassName1305","TP_Premium","TP_Consume","RestartCristal_bundle10","","","","NO","","NO",""
