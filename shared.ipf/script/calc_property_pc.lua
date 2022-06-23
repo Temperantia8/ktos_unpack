@@ -2537,7 +2537,7 @@ function SCR_Get_MSPD(self)
     end
     
     local jobRate = SCR_GET_JOB_RATIO_STAT(self, "MOVE_SPEED");
-    local value = 30.0 * jobRate;
+    local value = 35.0 * jobRate;
     
     if self.ClassName == 'PC' then
         local byItem = GetSumOfEquipItem(self, 'MSPD');

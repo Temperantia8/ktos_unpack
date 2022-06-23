@@ -1,4 +1,7 @@
 ClassID,StartTimeYYYYMM,StartTimeDDHHMM,NewTimeYYYYMM,NewTimeDDHHMM,EndTimeYYYYMM,EndTimeDDHHMM,DeadlineTimeYYYYMM,DeadlineTimeDDHHMM,ExchangeTimeYYYYMM,ExchangeTimeDDHHMM,ClassName,Name,ImagePath,url,UserCommand1,UserCommand2,UserCommand3,ShowType
+996090,202206,230000,202206,280000,202208,110600,202208,60000,0,0,"event2207_goddess","여신의 축복 - 7월","event2207_goddess","https://tos.nexon.com/News/Update/view?n4ArticleSN=2796","","","",""
+996100,202207,10000,202207,60000,202208,10000,202207,260000,0,0,"event2207_VaivoraReward","바이보라의 날개 출석체크 - 7월","event2207_VaivoraReward","https://tos.nexon.com/news/events/view?n4ArticleSN=391","","","",""
+996110,202207,10000,202207,60000,202208,10000,202207,260000,0,0,"event2207_Burning","주말앤버닝 - 7월","event2207_Burning","https://tos.nexon.com/news/events/view?n4ArticleSN=390","","","",""
 996120,202206,90000,202206,140000,202207,210600,202207,170000,0,0,"Season1_Package","[시즌서버] 특판","Season1_Package","https://tos.nexon.com/News/Update/view?n4ArticleSN=2774","","","",""
 996130,202206,90000,202206,140000,202207,210600,202207,170000,0,0,"Season1_ClassicCube","[시즌서버] 복각: 여신의 큐브","Season1_ClassicCube","https://tos.nexon.com/News/Update/view?n4ArticleSN=2773","","","",""
 996140,202206,90000,202206,140000,202207,210600,202207,170000,0,0,"Season1_Event","[시즌서버] 이벤트 풀페이지","Season1_Event","https://nexon.link/8uu","","","",""

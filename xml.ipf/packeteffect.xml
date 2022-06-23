@@ -855,6 +855,10 @@
         <Effect Name="TheTreeOfSepiroth_Abil_Pad"/>
         <Effect Name="Cleric_Romuva_abil2"/>
         <Effect Name="Cleric_Laima_abil"/>
+        <Effect Name="F_cleric_Foretell_ground_missile"/>
+        <Effect Name="counterspell_aura_pad"/>
+        <Effect Name="Nachash_Vibora_Pad"/>
+        <Effect Name="F_spin003_orange2"/>
     </Category>
     <Category ID="187">
         <Effect Name="F_bg_boil002"/>
