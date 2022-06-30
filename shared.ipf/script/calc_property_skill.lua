@@ -9471,6 +9471,17 @@ function SCR_GET_Prophecy_Time(skill)
     return value;
 end
 
+-- done, 해당 함수 내용은 cpp로 이전되었습니다. 변경 사항이 있다면 반드시 프로그램팀에 알려주시기 바랍니다.
+function SCR_GET_SKL_COOLDOWN_Prophecy(skill)
+    local value = SCR_GET_SKL_COOLDOWN_ADD_LEVEL_BYGEM(skill)
+    local pc = GetSkillOwner(skill)
+    local abil = GetAbility(pc, 'Oracle34')
+    if abil ~= nil and TryGetProp(abil, 'ActiveState', 0) == 1 then
+        value = SCR_GET_SKL_COOLDOWN(skill)
+    end
+    return value
+end
+
 -- done , 해당 함수 내용은 cpp로 이전되었습니다. 변경 사항이 있다면 반드시 프로그램팀에 알려주시기 바랍니다.
 function SCR_GET_Foretell_Time(skill)
     local value = 5
