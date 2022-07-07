@@ -14345,11 +14345,6 @@ end
 function SCR_GET_Explosion_Ratio(skill)
     local pc = GetSkillOwner(skill)
     local value = math.floor(3 + skill.Level * 0.375);
-    
-    if IsBuffApplied(pc, "Bazooka_Buff") == "YES" then
-        value = value * 2
-    end
-
     if IsPVPField(pc) == 1 and value > 2 then
         value = math.floor((math.max(0, value-2)^0.5))+math.min(2, value)
     end
