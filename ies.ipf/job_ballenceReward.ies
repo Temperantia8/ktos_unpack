@@ -3,7 +3,7 @@ ClassID,JobChangePoint,ClassName,Name,EngName,CtrlType,BaseClass,RewardDay_Start
 1001,0,"Char1_1","[소드맨]","Warrior","Warrior","Base","","","","","","","",""
 1002,1000,"Char1_2","[하이랜더]","Highlander","Warrior","","","","Premium_SkillReset_14d","Premium_Abillitypoint_14d","","","",""
 1003,0,"Char1_3","[펠타스타]","Peltasta","Warrior","","","","","","","","",""
-1004,0,"Char1_4","[하플라이트]","Hoplite","Warrior","","","","Premium_SkillReset_14d","Premium_Abillitypoint_14d","","","",""
+1004,1000,"Char1_4","[하플라이트]","Hoplite","Warrior","","","","Premium_SkillReset_14d","Premium_Abillitypoint_14d","","","",""
 1005,0,"Char1_5","[센츄리온]","Centurion","Warrior","","","","","","","","",""
 1006,0,"Char1_6","[바바리안]","Barbarian","Warrior","","","","","","","","",""
 1007,0,"Char1_7","[캐터프랙트]","Cataphract","Warrior","","","","","","","","",""
