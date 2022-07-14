@@ -3226,11 +3226,17 @@ function SCR_ABIL_Schwarzereiter31_INACTIVE(self, ability)
 end
 
 function SCR_ABIL_Schwarzereiter18_ACTIVE(self, ability)
-    StartCoolTime(self, 'Schwarzereiter_Limacon')
+    local skill = GetSkill(self, 'Schwarzereiter_AssaultFire')
+    if skill ~= nil then
+        InvalidateSkill(self, 'Schwarzereiter_AssaultFire')
+    end
 end
 
 function SCR_ABIL_Schwarzereiter18_INACTIVE(self, ability)
-    StartCoolTime(self, 'Schwarzereiter_Limacon')
+    local skill = GetSkill(self, 'Schwarzereiter_AssaultFire')
+    if skill ~= nil then
+        InvalidateSkill(self, 'Schwarzereiter_AssaultFire')
+    end
 end
 
 function SCR_ABIL_Crusader22_ACTIVE(self, ability)
