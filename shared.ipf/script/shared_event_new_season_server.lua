@@ -90,7 +90,7 @@ end
 ]]
 function GET_SPECIAL_CREATE_TICKET_INFO()
     local startTime = '2022-06-09 06:00:00'
-    local endTime = '2022-07-21 05:59:59'
+    local endTime = '2022-07-28 05:59:59'
     local setCount = '1'
 
     return startTime, endTime, setCount
