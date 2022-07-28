@@ -1786,7 +1786,7 @@ function SCR_GET_RimBlow_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Peltasta38")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
 
@@ -1824,7 +1824,7 @@ function SCR_GET_ShieldLob_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Peltasta38")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -1845,7 +1845,7 @@ function SCR_GET_ButterFly_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Murmillo20")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
 
@@ -1870,7 +1870,7 @@ function SCR_GET_Langort_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Peltasta38")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -2161,7 +2161,7 @@ function SCR_GET_Montano_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Rodelero31")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -2186,7 +2186,7 @@ function SCR_GET_TargeSmash_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Rodelero31")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -2199,7 +2199,7 @@ function SCR_GET_ShieldPush_Ratio2(skill)
     local value = 0
     local abil = GetAbility(pc, "Rodelero31")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -2212,7 +2212,7 @@ function SCR_GET_ShieldShoving_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Rodelero31")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -2235,7 +2235,7 @@ function SCR_GET_ShieldBash_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Rodelero31")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -2275,7 +2275,7 @@ function SCR_GET_ShootingStar_Ratio(skill)
     
     local abil = GetAbility(pc, "Rodelero31")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
 
@@ -3316,7 +3316,7 @@ function SCR_GET_ScutumHit_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Murmillo20")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -16276,7 +16276,7 @@ function SCR_GET_FrenziedBurst_Ratio(skill)
     local value = 0
     local abil = GetAbility(pc, "Murmillo20")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
@@ -16289,7 +16289,7 @@ function SCR_GET_ShieldTrain_Ratio2(skill)
     local value = 0
     local abil = GetAbility(pc, "Murmillo20")
 	if abil ~= nil and TryGetProp(abil, "ActiveState", 0) == 1 then
-        local addValue = TryGetProp(abil, "Level", 0) * 10
+        local addValue = TryGetProp(abil, "Level", 0) * 6
         value = value + addValue
     end
     
