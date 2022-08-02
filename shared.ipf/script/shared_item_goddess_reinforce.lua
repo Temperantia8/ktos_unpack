@@ -983,7 +983,7 @@ function make_item_goddess_reinforce_material_list()
 	table.insert(classtype_list, 'Neck')
 
 	group_list['Ring'] = 'acc'
-	group_list['Neck'] = 'armor'
+	group_list['Neck'] = 'acc'
 
 	-- 무기 방어구
 	for lv, v1 in pairs(item_goddess_reinforce_material_list) do
@@ -1071,7 +1071,7 @@ item_goddess_reinforce.get_material_list = function(use_lv, class_type, goal_lv)
 	if item_goddess_reinforce_material_list[use_lv][class_type] == nil then
 		return nil
 	end
-
+	
 	return item_goddess_reinforce_material_list[use_lv][class_type][goal_lv]
 end
 
