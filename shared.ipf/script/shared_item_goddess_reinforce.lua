@@ -909,28 +909,28 @@ function setting_lv_misc_material(mat_list_by_lv, lv, group)
 	mat_list_by_lv[lv][group][22][misc1] = 258
 	mat_list_by_lv[lv][group][22][misc2] = 64
 
-	mat_list_by_lv[lv][group][23][misc1] = 258
+	mat_list_by_lv[lv][group][23][misc1] = 300
 	mat_list_by_lv[lv][group][23][misc2] = 64
 
-	mat_list_by_lv[lv][group][24][misc1] = 258
+	mat_list_by_lv[lv][group][24][misc1] = 300
 	mat_list_by_lv[lv][group][24][misc2] = 64
 
-	mat_list_by_lv[lv][group][25][misc1] = 258
+	mat_list_by_lv[lv][group][25][misc1] = 300
 	mat_list_by_lv[lv][group][25][misc2] = 64
 
-	mat_list_by_lv[lv][group][26][misc1] = 258
+	mat_list_by_lv[lv][group][26][misc1] = 300
 	mat_list_by_lv[lv][group][26][misc2] = 64
 
-	mat_list_by_lv[lv][group][27][misc1] = 258
+	mat_list_by_lv[lv][group][27][misc1] = 300
 	mat_list_by_lv[lv][group][27][misc2] = 64
 
-	mat_list_by_lv[lv][group][28][misc1] = 258
+	mat_list_by_lv[lv][group][28][misc1] = 300
 	mat_list_by_lv[lv][group][28][misc2] = 64
 
-	mat_list_by_lv[lv][group][29][misc1] = 258
+	mat_list_by_lv[lv][group][29][misc1] = 300
 	mat_list_by_lv[lv][group][29][misc2] = 64
 
-	mat_list_by_lv[lv][group][30][misc1] = 258
+	mat_list_by_lv[lv][group][30][misc1] = 300
 	mat_list_by_lv[lv][group][30][misc2] = 64
 end
 
