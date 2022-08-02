@@ -104,7 +104,7 @@ function make_item_goddess_icor_range()
     -- ATK
     local max
 
-    max = 963
+    max = 642
     local set_list = {'AllMaterialType_Atk', 'AllRace_Atk'}
     for k, v in pairs(set_list) do
         item_goddess_icor_range[480]['Armor'][v] = {}
@@ -112,7 +112,7 @@ function make_item_goddess_icor_range()
         item_goddess_icor_range[480]['Armor'][v]['HIGH'] = {math.floor(max), math.floor(max * 1.2)}
     end
 
-    max = 1132
+    max = 755
     set_list = {'ADD_CLOTH', 'ADD_LEATHER', 'ADD_IRON', 'ADD_SMALLSIZE', 'ADD_MIDDLESIZE', 'ADD_LARGESIZE', 'ADD_GHOST', 'ADD_FORESTER', 'ADD_WIDLING', 'ADD_VELIAS', 'ADD_PARAMUNE', 'ADD_KLAIDA'}
     for k, v in pairs(set_list) do
         item_goddess_icor_range[480]['Armor'][v] = {}
@@ -120,7 +120,7 @@ function make_item_goddess_icor_range()
         item_goddess_icor_range[480]['Armor'][v]['HIGH'] = {math.floor(max), math.floor(max * 1.2)}
     end
 
-    max = 1696
+    max = 1131
     item_goddess_icor_range[480]['Armor']['Add_Damage_Atk'] = {}
     item_goddess_icor_range[480]['Armor']['Add_Damage_Atk']['LOW'] = {math.floor(max *0.8), max}
     item_goddess_icor_range[480]['Armor']['Add_Damage_Atk']['HIGH'] = {math.floor(max), math.floor(max * 1.2)}
@@ -137,7 +137,7 @@ function make_item_goddess_icor_range()
     -- end of STAT
 
     -- UTIL_ARMOR
-    max = 565
+    max = 377
     set_list = {'CRTHR', 'BLK_BREAK', 'BLK', 'ADD_HR', 'ADD_DR', 'CRTDR', 'RHP'}
     for k, v in pairs(set_list) do
         item_goddess_icor_range[480]['Armor'][v] = {}
@@ -147,12 +147,12 @@ function make_item_goddess_icor_range()
     -- end of UTIL_ARMOR
 
     -- DEF
-    max = 1696
+    max = 1131
     item_goddess_icor_range[480]['Armor']['ResAdd_Damage'] = {}
     item_goddess_icor_range[480]['Armor']['ResAdd_Damage']['LOW'] = {math.floor(max *0.8), max}
     item_goddess_icor_range[480]['Armor']['ResAdd_Damage']['HIGH'] = {math.floor(max), math.floor(max * 1.2)}
 
-    max = 1132
+    max = 755
     set_list = {'Cloth_Def', 'Leather_Def', 'Iron_Def', 'MiddleSize_Def'}
     for k, v in pairs(set_list) do
         item_goddess_icor_range[480]['Armor'][v] = {}
