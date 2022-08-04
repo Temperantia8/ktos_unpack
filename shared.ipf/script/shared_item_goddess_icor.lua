@@ -127,7 +127,7 @@ function make_item_goddess_icor_range()
     -- end of ATK
 
     -- STAT
-    max = 113
+    max = 169
     set_list = {'STR', 'DEX', 'CON', 'INT', 'MNA'}
     for k, v in pairs(set_list) do
         item_goddess_icor_range[480]['Armor'][v] = {}
