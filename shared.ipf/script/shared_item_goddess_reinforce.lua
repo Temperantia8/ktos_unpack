@@ -649,47 +649,47 @@ function setting_lv_material_weapon(mat_list_by_lv, lv)
 
 	mat_list_by_lv[lv]['weapon'][22][seasonCoin] = 2948
 	mat_list_by_lv[lv]['weapon'][22][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][22][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][22][misc_reinforce_1] = 15
 	mat_list_by_lv[lv]['weapon'][22][misc_reinforce_2] = 10
 
 	mat_list_by_lv[lv]['weapon'][23][seasonCoin] = 3311
 	mat_list_by_lv[lv]['weapon'][23][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][23][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][23][misc_reinforce_1] = 17
 	mat_list_by_lv[lv]['weapon'][23][misc_reinforce_2] = 11
 
 	mat_list_by_lv[lv]['weapon'][24][seasonCoin] = 3673
 	mat_list_by_lv[lv]['weapon'][24][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][24][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][24][misc_reinforce_1] = 19
 	mat_list_by_lv[lv]['weapon'][24][misc_reinforce_2] = 11
 
 	mat_list_by_lv[lv]['weapon'][25][seasonCoin] = 4036
 	mat_list_by_lv[lv]['weapon'][25][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][25][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][25][misc_reinforce_1] = 20
 	mat_list_by_lv[lv]['weapon'][25][misc_reinforce_2] = 12
 
 	mat_list_by_lv[lv]['weapon'][26][seasonCoin] = 4398
 	mat_list_by_lv[lv]['weapon'][26][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][26][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][26][misc_reinforce_1] = 20
 	mat_list_by_lv[lv]['weapon'][26][misc_reinforce_2] = 12
 
 	mat_list_by_lv[lv]['weapon'][27][seasonCoin] = 4760
 	mat_list_by_lv[lv]['weapon'][27][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][27][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][27][misc_reinforce_1] = 20
 	mat_list_by_lv[lv]['weapon'][27][misc_reinforce_2] = 13
 
 	mat_list_by_lv[lv]['weapon'][28][seasonCoin] = 5123
 	mat_list_by_lv[lv]['weapon'][28][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][28][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][28][misc_reinforce_1] = 20
 	mat_list_by_lv[lv]['weapon'][28][misc_reinforce_2] = 13
 
 	mat_list_by_lv[lv]['weapon'][29][seasonCoin] = 5485
 	mat_list_by_lv[lv]['weapon'][29][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][29][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][29][misc_reinforce_1] = 20
 	mat_list_by_lv[lv]['weapon'][29][misc_reinforce_2] = 14
 
 	mat_list_by_lv[lv]['weapon'][30][seasonCoin] = 5848
 	mat_list_by_lv[lv]['weapon'][30][misc_BlessedStone] = 4
-	mat_list_by_lv[lv]['weapon'][30][misc_reinforce_1] = 10
+	mat_list_by_lv[lv]['weapon'][30][misc_reinforce_1] = 20
 	mat_list_by_lv[lv]['weapon'][30][misc_reinforce_2] = 14
 
 	setting_lv_misc_material(mat_list_by_lv, lv, 'weapon')
@@ -906,32 +906,32 @@ function setting_lv_misc_material(mat_list_by_lv, lv, group)
 	mat_list_by_lv[lv][group][21][misc1] = 258
 	mat_list_by_lv[lv][group][21][misc2] = 64
 
-	mat_list_by_lv[lv][group][22][misc1] = 258
-	mat_list_by_lv[lv][group][22][misc2] = 64
+	mat_list_by_lv[lv][group][22][misc1] = 387
+	mat_list_by_lv[lv][group][22][misc2] = 129
 
-	mat_list_by_lv[lv][group][23][misc1] = 300
-	mat_list_by_lv[lv][group][23][misc2] = 64
+	mat_list_by_lv[lv][group][23][misc1] = 464
+	mat_list_by_lv[lv][group][23][misc2] = 154
 
-	mat_list_by_lv[lv][group][24][misc1] = 300
-	mat_list_by_lv[lv][group][24][misc2] = 64
+	mat_list_by_lv[lv][group][24][misc1] = 464
+	mat_list_by_lv[lv][group][24][misc2] = 154
 
-	mat_list_by_lv[lv][group][25][misc1] = 300
-	mat_list_by_lv[lv][group][25][misc2] = 64
+	mat_list_by_lv[lv][group][25][misc1] = 510
+	mat_list_by_lv[lv][group][25][misc2] = 170
 
-	mat_list_by_lv[lv][group][26][misc1] = 300
-	mat_list_by_lv[lv][group][26][misc2] = 64
+	mat_list_by_lv[lv][group][26][misc1] = 510
+	mat_list_by_lv[lv][group][26][misc2] = 170
 
-	mat_list_by_lv[lv][group][27][misc1] = 300
-	mat_list_by_lv[lv][group][27][misc2] = 64
+	mat_list_by_lv[lv][group][27][misc1] = 561
+	mat_list_by_lv[lv][group][27][misc2] = 187
 
-	mat_list_by_lv[lv][group][28][misc1] = 300
-	mat_list_by_lv[lv][group][28][misc2] = 64
+	mat_list_by_lv[lv][group][28][misc1] = 561
+	mat_list_by_lv[lv][group][28][misc2] = 187
 
-	mat_list_by_lv[lv][group][29][misc1] = 300
-	mat_list_by_lv[lv][group][29][misc2] = 64
+	mat_list_by_lv[lv][group][29][misc1] = 617
+	mat_list_by_lv[lv][group][29][misc2] = 205
 
-	mat_list_by_lv[lv][group][30][misc1] = 300
-	mat_list_by_lv[lv][group][30][misc2] = 64
+	mat_list_by_lv[lv][group][30][misc1] = 617
+	mat_list_by_lv[lv][group][30][misc2] = 205
 end
 
 function make_item_goddess_reinforce_material_list()

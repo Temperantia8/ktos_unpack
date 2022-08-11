@@ -863,6 +863,9 @@
         <Effect Name="F_pose_squardon_smoke_red"/>
         <Effect Name="F_pose_squadron_smoke_red"/>
         <Effect Name="I_force018_trail_rize_white2"/>
+        <Effect Name="skl_eff_pet_ep14rider_ride_on"/>
+        <Effect Name="skl_eff_pet_ep14rider_idl_2sec"/>
+        <Effect Name="skl_eff_pet_ep14rider_run_2sec"/>
     </Category>
     <Category ID="187">
         <Effect Name="F_bg_boil002"/>

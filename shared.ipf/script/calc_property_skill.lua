@@ -944,24 +944,22 @@ function SCR_GET_SKL_COOLDOWN_Bunshin_no_jutsu(skill)
 end
 -- done , 해당 함수 내용은 cpp로 이전되었습니다. 변경 사항이 있다면 반드시 프로그램팀에 알려주시기 바랍니다.
 function SCR_GET_SKL_COOLDOWN_KaguraDance(skill)
-    local pc = GetSkillOwner(skill);
+    local pc = GetSkillOwner(skill)
 
-    local level = TryGetProp(skill, "Level", 0) - 1
-    local basicCoolDown = skill.BasicCoolDown - (level * 5000);        
-    local abilAddCoolDown = GetAbilityAddSpendValue(pc, skill.ClassName, "CoolDown");
-    basicCoolDown = basicCoolDown + abilAddCoolDown;    
-    basicCoolDown = SCR_COMMON_COOLDOWN_DECREASE(pc, skill, basicCoolDown)    
-    local ret = math.floor(basicCoolDown) / 1000    
-    ret = math.floor(ret) * 1000;    
-
+    local level = TryGetProp(skill, "Level", 0)
     local abil = GetAbility(pc, "Miko18")
     if abil ~= nil and TryGetProp(abil, 'ActiveState', 0) == 1 then
-        if ret < 20000 then
-            ret = 20000
+        if level > 5 then
+            level = 5
         end
     end
-    
-    ret = math.floor(ret)    
+
+    local basicCoolDown = skill.BasicCoolDown - ((level - 1) * 5000)
+    local abilAddCoolDown = GetAbilityAddSpendValue(pc, skill.ClassName, "CoolDown")
+    basicCoolDown = basicCoolDown + abilAddCoolDown
+    basicCoolDown = SCR_COMMON_COOLDOWN_DECREASE(pc, skill, basicCoolDown)    
+    local ret = math.floor(basicCoolDown) / 1000
+    ret = math.floor(ret) * 1000
     ret = math.max(1000, ret)
     return ret
 end
