@@ -28,6 +28,7 @@ ClassID,BuyPrice,SellPrice,ClassName,Category,SubCategory,PackageList
 303,4,0,"Multiple_Token_MythicAuto_NoTrade","Recyle_Shop_Buy","Recyle_Shop_Contents",""
 304,40,0,"Multiple_Token_MythicHARD_NoTrade","Recyle_Shop_Buy","Recyle_Shop_Contents",""
 305,100,0,"Multiple_Token_Jellyzele_Party_NoTrade","Recyle_Shop_Buy","Recyle_Shop_Contents",""
+306,100,0,"Multiple_Token_TurbulentCore_Party_NoTrade","Recyle_Shop_Buy","Recyle_Shop_Contents",""
 401,400,0,"Jumping_460_package","Recyle_Shop_Buy","Recyle_Shop_Growth",""
 402,100,0,"Premium_QuestClearScroll_EP_1","Recyle_Shop_Buy","Recyle_Shop_Growth",""
 403,100,0,"Premium_QuestClearScroll_EP_2","Recyle_Shop_Buy","Recyle_Shop_Growth",""

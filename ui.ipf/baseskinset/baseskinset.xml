@@ -13878,6 +13878,7 @@
 		<image name="Dlg_port_RANGDAGIRL_WHITE" file="\npcimg\RANGDAGIRL_WHITE.png" imgrect="0 0 750 950" CMM_Caption="랑다소녀_봉인 후"/>
 		<image name="Dlg_port_BUTTERFLY_GIRL" file="\npcimg\BUTTERFLY_GIRL.png" imgrect="0 0 650 880" CMM_Caption="소녀 라이마"/>
 		<image name="Dlg_port_Baubas" file="\npcimg\Baubas.png" imgrect="0 0 800 950" CMM_Caption="바우바스"/>
+		<image name="icon_Baubas" file="\icon\item\icon_Baubas.png" imgrect="0 0 800 950" CMM_Caption="바우바스"/>
 		<image name="Dlg_port_Jorick" file="\npcimg\Jorick.png" imgrect="0 0 700 900" CMM_Caption="클로운 마스터"/>
 		<image name="Dlg_port_Rudmila" file="\npcimg\Rudmila.png" imgrect="0 0 700 900" CMM_Caption="아퀴버지어 마스터"/>
 		<image name="Dlg_port_TOSHero_NPC" file="\npcimg\TOSHero_NPC.png" imgrect="0 0 1016 988" CMM_Caption="영웅담 책"/>
@@ -14629,6 +14630,22 @@
 		<image name="icon_spreader_transition_curse" file="\icon\buff_icon6.tga" imgrect="896 896 128 128" CMM_Caption="변이 저주"/>
 		<image name="icon_spreader_transition_vestige" file="\icon\buff_icon6.tga" imgrect="0 1024 128 128" CMM_Caption="흔적"/>
 		<image name="icon_buff_ridepet_ep14rider" file="\icon\buff_icon6.tga" imgrect="128 1024 128 128" CMM_Caption="7월 테마 버프"/>
+		<image name="icon_falouros_prison" file="\icon\buff_icon6.tga" imgrect="256 1024 128 128" CMM_Caption="제압"/>
+		<image name="icon_falouros_link" file="\icon\buff_icon6.tga" imgrect="384 1024 128 128" CMM_Caption="링크"/>
+		<image name="icon_falouros_rage_pc" file="\icon\buff_icon6.tga" imgrect="512 1024 128 128" CMM_Caption="받는 피해 증가(PC)"/>
+		<image name="icon_falouros_rage_boss" file="\icon\buff_icon6.tga" imgrect="640 1024 128 128" CMM_Caption="받는 피해 증가(보스)"/>
+		<image name="icon_falouros_thundercloud" file="\icon\buff_icon6.tga" imgrect="768 1024 128 128" CMM_Caption="뇌운"/>
+		<image name="icon_falouros_defdown" file="\icon\buff_icon6.tga" imgrect="896 1024 128 128" CMM_Caption="방어력 감소"/>
+		<image name="icon_falouros_atkdown" file="\icon\buff_icon6.tga" imgrect="0 1152 128 128" CMM_Caption="공격력 감소"/>
+		<image name="icon_falouros_weak" file="\icon\buff_icon6.tga" imgrect="128 1152 128 128" CMM_Caption="약화"/>
+		<image name="icon_superfire_attribute" file="\icon\buff_icon6.tga" imgrect="256 1152 128 128" CMM_Caption="발화"/>
+		<image name="icon_superice_attribute" file="\icon\buff_icon6.tga" imgrect="384 1152 128 128" CMM_Caption="한기"/>
+		<image name="icon_superice_freeze" file="\icon\buff_icon6.tga" imgrect="512 1152 128 128" CMM_Caption="빙결"/>
+		<image name="icon_superlightning_attribute" file="\icon\buff_icon6.tga" imgrect="640 1152 128 128" CMM_Caption="감전"/>
+		<image name="icon_superlightning_paralysis" file="\icon\buff_icon6.tga" imgrect="768 1152 128 128" CMM_Caption="마비"/>
+		<image name="icon_superpoison_attribute" file="\icon\buff_icon6.tga" imgrect="896 1152 128 128" CMM_Caption="중독"/>
+		<image name="icon_superbleeding_attribute" file="\icon\buff_icon6.tga" imgrect="0 1280 128 128" CMM_Caption="출혈"/>
+		<image name="icon_superstun_attribute" file="\icon\buff_icon6.tga" imgrect="128 1280 128 128" CMM_Caption="혼절"/>
 	</imagelist>
 	<imagelist category="housing_bufficon">
 		<image name="icon_Weapon_Klaida" file="\icon\icon_hosing_buff.tga" imgrect="0 0 128 128"/>
