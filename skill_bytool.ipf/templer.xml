@@ -91,10 +91,6 @@
                         <Frame Type="FAN" Time="9799" HitCount="1" TermMin="0" TermMax="0" PosType="0" Dist="0" RandDist="0" RandomPerHit="0" Angle="0" AniTime="9999" RotAngle="0" ForceATK="0"/>
                     </HitList>
                     <EtcList>
-                        <Scp Client="NO" Scp="SKL_TOGGLE_ON" Time="0" UseSleep="NO">
-                            <Num Num="0"/>
-                        </Scp>
-                        <Scp Scp="SKL_CONSUME_SKILL_COOLDOWN" Client="NO" UseSleep="NO" Time="0"/>
                         <Scp Scp="SKL_BUFF_REMOVE" Client="NO" UseSleep="NO" Time="0" TimeSync="0">
 							<Str Str="AdvancedOrders_On_Buff"/>
 						</Scp>
@@ -642,10 +638,6 @@
                         <Frame Type="FAN" Time="9799" HitCount="1" TermMin="0" TermMax="0" PosType="0" Dist="0" RandDist="0" RandomPerHit="0" Angle="0" AniTime="9999" RotAngle="0" ForceATK="0"/>
                     </HitList>
                     <EtcList>
-                        <Scp Client="NO" Scp="SKL_TOGGLE_ON" Time="0" UseSleep="NO">
-                            <Num Num="0"/>
-                        </Scp>
-                        <Scp Scp="SKL_CONSUME_SKILL_COOLDOWN" Client="NO" UseSleep="NO" Time="0"/>
                         <Scp Scp="SKL_BUFF_REMOVE" Client="NO" UseSleep="NO" Time="0" TimeSync="0">
 							<Str Str="BattleOrders_On_Buff"/>
 						</Scp>
