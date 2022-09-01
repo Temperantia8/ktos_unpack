@@ -3938,6 +3938,8 @@ function SCR_ABIL_Crusader15_INACTIVE(self, ability)
 end
 
 function SCR_ABIL_ReduceDamageIncome_ACTIVE(self, ability)
+    if IsPVPServer(self) == 1 then return end
+    
     local job_history = GetJobHistoryString(self)
     local job_name_list = StringSplit(job_history, ';')
     if job_name_list ~= nil and #job_name_list > 0 then

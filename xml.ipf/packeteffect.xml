@@ -41636,6 +41636,7 @@
         <Effect Name="F_ground226_lightning_dark"/>
         <Effect Name="F_rize004_dark_redorange2"/>
         <Effect Name="F_ground190_circle_crack3_3"/>
+		<Effect Name="F_rize004_dark_redorange"/>
     </Category>
     <Category ID="170">
         <Effect Name="Linker_blue3"/>

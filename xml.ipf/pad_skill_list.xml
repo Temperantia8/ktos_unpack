@@ -27074,7 +27074,7 @@ end"/>
 			</ToolScp>
 		</updateEvent>
 	</PadSkill>
-    <PadSkill Name="Templer_MoraleBanner" CheckerType="0" Range="100" UpdateTerm="100" ApplyFlyMon="1" IgnoreDistanceInterval="1" IsMineType="0">
+    <PadSkill Name="Templer_MoraleBanner" CheckerType="0" Range="100" UpdateTerm="100" ApplyFlyMon="1" IgnoreDistanceInterval="1" IsMagicType="0" IsMineType="0">
         <createEvent>
             <ToolScp Scp="PAD_ADD_LIFE" Client="NO" UseSleep="NO">
                 <Num Num="30000"/>
@@ -27394,7 +27394,7 @@ end"/>
             </ToolScp>
         </updateEvent>
     </PadSkill>
-    <PadSkill Name="Templer_RevengeBanner" CheckerType="0" Range="100" UpdateTerm="1000" ApplyFlyMon="1" IgnoreDistanceInterval="1" IsMineType="0">
+    <PadSkill Name="Templer_RevengeBanner" CheckerType="0" Range="100" UpdateTerm="1000" ApplyFlyMon="1" IgnoreDistanceInterval="1" IsMagicType="0" IsMineType="0">
         <createEvent>
             <ToolScp Scp="PAD_ADD_LIFE" Client="NO" UseSleep="NO">
                 <Num Num="30000"/>
@@ -27615,7 +27615,7 @@ end"/>
 			</ToolScp>
 		</updateEvent>
 	</PadSkill>
-    <PadSkill Name="Templer_VitalityBanner" CheckerType="0" Range="100" UpdateTerm="2000" ApplyFlyMon="1" IgnoreDistanceInterval="1" IsMineType="0">
+    <PadSkill Name="Templer_VitalityBanner" CheckerType="0" Range="100" UpdateTerm="2000" ApplyFlyMon="1" IgnoreDistanceInterval="1" IsMagicType="0" IsMineType="0">
         <createEvent>
             <ToolScp Scp="PAD_ADD_LIFE" Client="NO" UseSleep="NO">
                 <Num Num="10000" UseFunc="1" FuncTxt="return SCR_GET_VitalityBanner_Time(obj) * 1000"/>
