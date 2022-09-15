@@ -709,8 +709,10 @@ function SCR_REFRESH_WEAPON(item, enchantUpdate, ignoreReinfAndTranscend, reinfB
                     damageRange = 0 
                 end
 
+                if TryGetProp(item, 'UseLv', 0) < 480 then
                 evolvedMaxAtkUp = GET_EVOLVED_ATK(item) * damageRange
                 evolvedMinAtkUp = GET_EVOLVED_ATK(item) * (2 - damageRange)
+            end
             end
 
             item.MAXATK = SyncFloor((item.MAXATK * upgradeRatio) + buffarg + reinforceAddValueAtk + evolvedMaxAtkUp);
@@ -729,7 +731,9 @@ function SCR_REFRESH_WEAPON(item, enchantUpdate, ignoreReinfAndTranscend, reinfB
             local reinfAddValueAtk = GET_REINFORCE_ADD_VALUE_ATK(item, ignoreReinfAndTranscend, reinfBonusValue, basicProp);
             local evolvedAtkUp = 0
             if TryGetProp(item, 'ItemGrade', 0) == 6 and TryGetProp(item, 'EvolvedItemLv', 0) > TryGetProp(item, 'UseLv', 0) then
+                if TryGetProp(item, 'UseLv', 0) < 480 then
                 evolvedAtkUp = GET_EVOLVED_ATK(item)
+            end
             end
 
             item.MATK = SyncFloor((item.MATK * upgradeRatio) + buffarg + reinfAddValueAtk + evolvedAtkUp);
@@ -948,9 +952,12 @@ function SCR_REFRESH_ARMOR(item, enchantUpdate, ignoreReinfAndTranscend, reinfBo
         local weaponDamageClass = GetClassByNameFromList(itemGradeClass,'WeaponDamageRange')
         local damageRange = weaponDamageClass[classType]
 
+        if TryGetProp(item, 'UseLv', 0) < 480 then
         evolvedMaxAtkUp = GET_EVOLVED_ATK(item) * damageRange
         evolvedMinAtkUp = GET_EVOLVED_ATK(item) * (2 - damageRange)
         evolvedAtkUp = GET_EVOLVED_ATK(item)
+        end
+        
 
         item.MAXATK = item.MAXATK + SyncFloor(evolvedMaxAtkUp)
         item.MINATK = item.MINATK + SyncFloor(evolvedMinAtkUp)
