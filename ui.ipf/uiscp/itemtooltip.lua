@@ -873,13 +873,25 @@ function DRAW_SPECIAL_RANDOM_OPTION(item, desc)
 	return desc
 end
 
-function DRAW_REROLL_INFOMATION(item, desc)		
+function DRAW_REROLL_INFOMATION(item, desc)
 	local index = TryGetProp(item, 'RerollIndex', 0)
 	local count = TryGetProp(item, 'RerollCount', 0)
+	local flag = false
 	if index ~= 0 then
 		local msg = ScpArgMsg('reroll{count}', 'count', count)
 		desc = desc .. '{nl} {nl}' .. msg
+		flag = true
 	end
 	
+	count = TryGetProp(item, 'Ductility_Count', 0)
+	if count > 0 then
+		local msg = ScpArgMsg('ductility{count}', 'count', count)
+		if flag == true then
+			desc = desc .. '{nl}' .. msg
+		else
+			desc = desc .. '{nl} {nl}' .. msg
+		end
+	end
+
 	return desc
 end
