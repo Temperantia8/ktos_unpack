@@ -11,14 +11,13 @@ function GET_OBLATION_PRICE_PERCENT(item)
 		return 0
 	end
 	
-	local name = TryGetProp(item, 'StringArg', 'None')	
+	local name = TryGetProp(item, 'StringArg', 'None')
 	if name ~= 'None' then
 		local cls = GetClass("Housing_Furniture", name)
 		if cls ~= nil then		
 			return 0
 		end
 	end
-
 	return 0.8;
 end
 
